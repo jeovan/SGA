@@ -1,0 +1,25 @@
+{
+  "name": "sga",
+  "version": "1.0.0",
+  "description": "sistema de gestão da aprendizagem",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "set NODE_ENV=DEVELOMENT&&nodemon ./src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeovan/SGA.git"
+  },
+  "author": "Jeovan Farias",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeovan/SGA/issues"
+  },
+  "homepage": "https://github.com/jeovan/SGA#readme",
+  "dependencies": {
+    "consign": "^0.1.6",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3"
+  }
+}
